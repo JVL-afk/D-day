@@ -46,7 +46,7 @@ export default function PricingPage() {
       id: 'basic',
       name: 'Basic',
       description: 'Perfect for getting started with affiliate marketing',
-      price: billingPeriod === 'monthly' ? 9 : 90,
+      price: billingPeriod === 'monthly' ? 0 : 90,
       period: billingPeriod === 'monthly' ? 'month' : 'year',
       icon: <Zap className="w-6 h-6" />,
       cta: 'Start Basic Plan',
@@ -73,7 +73,7 @@ export default function PricingPage() {
       icon: <Crown className="w-6 h-6" />,
       cta: 'Start Pro Plan',
       features: [
-        { name: '25 websites', included: true, icon: <Globe className="w-4 h-4" /> },
+        { name: '10 websites', included: true, icon: <Globe className="w-4 h-4" /> },
         { name: 'All templates including Premium & Conversion Pro', included: true, icon: <Palette className="w-4 h-4" /> },
         { name: 'AI content generation', included: true, icon: <Sparkles className="w-4 h-4" /> },
         { name: 'Advanced analytics', included: true, icon: <BarChart3 className="w-4 h-4" /> },
