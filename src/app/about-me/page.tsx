@@ -27,6 +27,7 @@ import {
 
 import Header from '@/components/Header'
 export default function AboutMePage() {
+import Link from 'next/link'
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-600 via-orange-700 to-black">
       <Header />
