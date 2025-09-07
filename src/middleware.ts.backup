@@ -12,9 +12,6 @@ const protectedRoutes = [
   '/billing'
 ]
 
-// Define auth routes (redirect to dashboard if already authenticated)
-const authRoutes = ['/login', '/signup']
-
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
   
