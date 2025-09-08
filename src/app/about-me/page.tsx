@@ -54,4 +54,4 @@ export default function AboutMePage() {
                       </div>div>
               </div>div>
         )
-}/div>
+}
