@@ -39,13 +39,7 @@ export default function Header() {
             >
               Documentation
             </Link>
-            <Link 
-              href="/about-me" 
-              className="nav-badge text-white hover:text-green-400 transition-colors font-medium"
-              data-badge="5"
-            >
-              About Me
-            </Link>
+              Link>
             <Link 
               href="/login" 
               className="nav-badge text-white hover:text-pink-400 transition-colors font-medium"
