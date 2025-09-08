@@ -1,8 +1,8 @@
 "use client"
-
+<p className="text-2xl text-orange-200 mb-8"> From a Romanian student to building AFFILIFY </p>
 import Header from '@/components/Header'
-
-export default function AboutMePage() {
+<div className="bg-black/30 backdrop-blur-sm rounded-2xl p-8 md:p-12 border border-orange-500/20">
+<div className="prose prose-lg prose-invert max-w-none">
     return (
           <div className="min-h-screen bg-gradient-to-br from-orange-600 via-orange-700 to-black">
                 <Header />
