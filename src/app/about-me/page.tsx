@@ -1,4 +1,4 @@
-'use client'
+"use client"
 
 
 
@@ -12,7 +12,7 @@ import {
   Users, 
   TrendingUp,
   Heart,
-'use client'
+"use client"
 
 import Header from '@/components/Header'
 
